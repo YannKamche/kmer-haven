@@ -1,6 +1,16 @@
 .header {
     padding: 36px 0;
+    transition: padding-top 0.3s ease; /* Add transition for smoother effect */
+}
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding-top: 0; /* Adjust this value as needed */
+    background-color: #aab0c0;
+    padding: 36px 0;
 }
 
 .wrap {
@@ -11,7 +21,7 @@
     gap: calc(var(--base) / 2) var(--base);
 }
 
-.logo{
+.logo {
     width: 170px;
 }
 
